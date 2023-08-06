@@ -65,10 +65,22 @@ function App() {
         <div className='py-5'>
           <div className='flex justify-between'>
             <h1 className='text-[#7B84A8] text-xl'>Search results</h1>
-            <div className='space-x-3'>
-              <button className='px-4 py-2 text-sm rounded-full bg-[#552AC1] text-[#FFF]' onClick={() => setSorter("cheapest")}>CHEAPEST</button>
-              <button className='px-4 py-2 text-sm rounded-full bg-[#552AC1] text-[#FFF]' onClick={() => setSorter("recommended")}>RECOMMENDED</button>
-            </div>
+            <div className='space-x-3 '>
+              <div className='space-y-3 sm:space-y-0 sm:space-x-3 flex flex-col sm:flex-row'>
+                <button
+                  className='px-4 py-2 text-sm rounded-full bg-[#552AC1] text-[#FFF]'
+                  onClick={() => setSorter('cheapest')}
+                >
+                  CHEAPEST
+                </button>
+                <button
+                  className='px-4 py-2 text-sm rounded-full bg-[#552AC1] text-[#FFF]'
+                  onClick={() => setSorter('recommended')}
+                >
+                  RECOMMENDED
+                </button>
+              </div>
+              </div>
           </div>
           {from !== "" && to !== "" && (
             <>
