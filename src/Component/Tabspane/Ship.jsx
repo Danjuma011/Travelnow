@@ -15,7 +15,7 @@ function Ship({ setTo, setFrom }) {
 
 
     const handleSubmit = () => {
-        console.log(details)
+        console.log(details) 
         setTo(details.arrival)
         setFrom(details.departure)
     }
@@ -25,7 +25,7 @@ function Ship({ setTo, setFrom }) {
             <div className=''>
                 <label className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Depart from</label>
                 <div className="input-container mt-1">
-                    <FontAwesomeIcon icon={faShip} className="text-[#552AC1]" />
+                    <FontAwesomeIcon icon={faShip} className="text-[#552AC1]  mr-3" />
                     <input
                         value={details.departure}
                         onChange={(e) => setDetails({ ...details, departure: e.target.value })}
@@ -36,7 +36,7 @@ function Ship({ setTo, setFrom }) {
                 </div>
                 <div className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Destination</div>
                 <div className="input-container mt-1">
-                    <FontAwesomeIcon icon={faShip} className="text-[#552AC1]" />
+                    <FontAwesomeIcon icon={faShip} className="text-[#552AC1]  mr-3" />
                     <input
                         value={details.arrival}
                         onChange={(e) => setDetails({ ...details, arrival: e.target.value })}

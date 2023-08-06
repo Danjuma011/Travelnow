@@ -25,7 +25,7 @@ function Flight({setFrom,setTo}) {
             <div className=''>
                 <label className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Depart from</label>
                 <div className="input-container mt-1">
-                    <FontAwesomeIcon icon={faPlaneDeparture} className=" text-[#552AC1]" />
+                    <FontAwesomeIcon icon={faPlaneDeparture} className=" text-[#552AC1]  mr-3" />
                     <input
                         value={details.departure}
                         onChange={(e) => setDetails({ ...details, departure: e.target.value })}
@@ -36,7 +36,7 @@ function Flight({setFrom,setTo}) {
                 </div>
                 <div className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Arrive at</div>
                 <div className="input-container mt-1">
-                    <FontAwesomeIcon icon={faPlaneArrival} className=" text-[#552AC1]" />
+                    <FontAwesomeIcon icon={faPlaneArrival} className=" text-[#552AC1]  mr-3" />
                     <input
                         type="text"
                         value={details.arrival}

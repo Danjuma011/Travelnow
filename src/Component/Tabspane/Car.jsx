@@ -25,7 +25,7 @@ function Car({setTo, setFrom}) {
 
               <label className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Pickup Location</label>
               <div className="input-container mt-1">
-                  <FontAwesomeIcon icon={faCar} className="text-[#552AC1]" />
+                  <FontAwesomeIcon icon={faCar} className="text-[#552AC1] mr-3" />
                   <input
                   value={details.departure}
                   onChange={(e) => setDetails({...details, departure: e.target.value})}
@@ -36,7 +36,7 @@ function Car({setTo, setFrom}) {
               </div>
               <label className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Arrive at </label>
               <div className="input-container mt-1">
-                  <FontAwesomeIcon icon={faCar} className="text-[#552AC1]" />
+                  <FontAwesomeIcon icon={faCar} className="text-[#552AC1]  mr-3" />
                   <input
                   value={details.arrival}
                   onChange={(e) => setDetails({...details, arrival: e.target.value})}
