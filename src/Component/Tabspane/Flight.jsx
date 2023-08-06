@@ -20,7 +20,7 @@ function Flight({setFrom,setTo}) {
     }
 
     return (
-        <div className='w-full p-4'>
+        <div className='w-full pt-4'>
             <h1 className='text-[20px] xl:text-[1.3vw] text-[#552AC1] mb-4'>Best Local Flight Deals For You <br /></h1>
             <div className=''>
                 <label className="text-[#552AC1] text-[12px] xl:text-[0.83vw] font-[500] mt-4">Depart from</label>

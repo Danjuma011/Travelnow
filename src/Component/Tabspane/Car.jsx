@@ -19,7 +19,7 @@ function Car({setTo, setFrom}) {
         setFrom(details.departure)
     }
   return (
-      <div className='w-full p-4'>
+      <div className='w-full pt-4'>
           <h1 className='text-[20px] xl:text-[1.3vw] text-[#552AC1] mb-4'>Best local Car Rental Deals For You <br /></h1>
           <div className=''>
 

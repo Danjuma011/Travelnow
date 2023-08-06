@@ -61,7 +61,7 @@ function App() {
           <Tabspane setData={setData} setTo={setTo} setFrom={setFrom} />
         </div>
       </div>
-      <div className='bg-[#FAFBFA] flex-1 lg:px-7'>
+      <div className='bg-[#FAFBFA] flex-1 lg:px-7  rounded-lg px-3'>
         <div className='py-5'>
           <div className='flex justify-between'>
             <h1 className='text-[#7B84A8] text-xl'>Search results</h1>
@@ -104,7 +104,7 @@ function App() {
             })}
           </div>
         ) : (
-          <div className='flex justify-center items-center h-[80%] font-bold text-2xl text-[#552AC1]'>
+          <div className='flex justify-center items-center h-[80%] font-bold text-2xl text-[#552AC1] '>
             Welcome! Where would you like to go?
           </div>
         )}

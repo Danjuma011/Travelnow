@@ -36,7 +36,7 @@ const TabPane = ({setData,setTo,setFrom}) => {
 
  
   return (
-    <div className=" p-4 w-full">
+    <div className=" lg:p-4 w-full">
       <div className="flex border-b w-full">
         {tabData.map((tab) => (
           <div
