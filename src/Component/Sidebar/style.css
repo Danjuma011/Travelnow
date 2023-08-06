@@ -1,0 +1,149 @@
+
+.aside {
+    width: 29.01%;
+    background-color: rgb(226 232 240);
+    padding: 30px 0
+}
+
+.logo {
+    color: rgb(89, 89, 158);
+    font-size: 15px;
+    padding: 0 25px 20px 30px;
+    
+}
+
+.icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 5px 35px;
+    margin: 0 1px;
+
+
+}
+
+.flight-text {
+    font-size: 8px;
+    font-weight: 500;
+
+}
+
+.flight-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    color: #8e8d8d;
+
+
+}
+
+
+
+/* .plane {
+    background: #fff;
+    
+    color: #8e8d8d;
+    margin: 1px;
+} */
+
+.flight-box:active {
+    background: green;
+
+}
+
+.icon:active {
+    color: #fff;
+}
+
+/* .train {
+    background: #fff;
+    padding: 20px 30px;
+    color: #8e8d8d;
+    margin: 1px;
+}
+
+.ship {
+    background: #fff;
+    padding: 20px 29px;
+    color: #8e8d8d;
+    margin: 1px;
+}
+
+.car {
+    background: #fff;
+    padding: 20px 29px;
+    color: #8e8d8d;
+    margin: 1px;
+} */
+
+span {
+    color: rgb(89, 89, 158)
+}
+
+h4 {
+
+    color: rgb(82 82 82)
+}
+
+
+
+.main {
+    margin: 0 30px;
+}
+
+
+.input-container {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background: #fff;
+
+}
+
+
+.input-icon {
+    margin-right: 8px;
+    color: #8e8d8d;
+}
+
+.input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.depart {
+    font-size: 10px;
+    color: rgb(82 82 82);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bottom-container {
+    padding: 0 20px;
+}
+
+.btn {
+    color: #fff;
+     padding: 10px ;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 25px;
+    
+}
