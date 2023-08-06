@@ -9,7 +9,7 @@ function Ship({ setTo, setFrom }) {
         arrival: "",
         departDate: "",
         cabinType: "inside",
-        adults: "",
+        adults: "1",
         children: ""
     })
 
@@ -95,7 +95,7 @@ function Ship({ setTo, setFrom }) {
                         />
                     </span>
                 </div>
-                <button disabled={!details.departure || !details.arrival || !details.adults || !details.children} className='btn bg-[#552AC1] disabled:bg-[#552AC14D]' onClick={handleSubmit}>FIND CRUISE</button>
+                <button disabled={!details.departure || !details.arrival || !details.adults } className='btn bg-[#552AC1] disabled:bg-[#552AC14D]' onClick={handleSubmit}>FIND CRUISE</button>
             </div>
         </div>
 

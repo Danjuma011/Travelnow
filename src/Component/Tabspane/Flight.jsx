@@ -9,7 +9,7 @@ function Flight({setFrom,setTo}) {
         departDate: "",
         arrivalDate: "",
         class: "economy",
-        quantity: 0
+        quantity: 1
     })
     
     

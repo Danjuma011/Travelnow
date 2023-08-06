@@ -8,7 +8,7 @@ function Car({setTo, setFrom}) {
         arrival: "",
         pickUpDate: "",
         pickUpTime: "",
-        quantity: 0,
+        quantity: 1,
         carType: "compact",
     })
     

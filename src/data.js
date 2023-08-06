@@ -20,7 +20,7 @@ import dotrails from "./Assets/dotrails.jpg"
 import slickrails from "./Assets/slickrails.png"
 import slograils from "./Assets/slograils.png"
 import tactrails from "./Assets/tactrails.png"
-import vectorrails from "./Assets/fastbox.png"
+import vectorrails from "./Assets/vectorrails.png"
 
 
 export const airlines = [
@@ -34,7 +34,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: "Lagos",
         landing: "Abuja",
-        price: 10000000
+        price: 60000
     },
     {
         fligthId: 2,
@@ -58,7 +58,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: 'Lagos',
         landing: 'Abuja',
-        price: 800000
+        price: 4000
     },
     {
         fligthId: 4,
@@ -70,7 +70,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: 'Porthacourt',
         landing: 'Awka',
-        price: 400000
+        price: 5000
     },
     {
         fligthId: 5,
@@ -104,9 +104,9 @@ export const airlines = [
         departureTime: '7:50pm',
         arrivalDate: '11/11/2019',
         arrivalTime: '2:20pm',
-        takeOff: 'Lagos',
-        landing: 'Abuja',
-        price: 100000
+        takeOff: "Abuja",
+        landing: "Lagos",
+        price: 2000
     },
     {
         fligthId: 8,
@@ -118,7 +118,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: 'Porthacourt',
         landing: 'Awka',
-        price: 10000000
+        price: 40000
     },
     {
         fligthId: 9,
@@ -130,7 +130,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: 'Lagos',
         landing: 'Abuja',
-        price: 10000000
+        price: 20000
     },
     {
         fligthId: 10,
@@ -142,7 +142,7 @@ export const airlines = [
         arrivalTime: '2:20pm',
         takeOff: 'Porthacourt',
         landing: 'Awka',
-        price: 10000000
+        price: 10000
     },
     {
         fligthId: 11,
@@ -154,7 +154,7 @@ export const airlines = [
         arrivalTime: '10:30am',
         takeOff: 'Enugu',
         landing: 'Kano',
-        price: 750000,
+        price: 7500,
     },
     {
         fligthId: 12,
@@ -166,7 +166,7 @@ export const airlines = [
         arrivalTime: '3:00pm',
         takeOff: 'Calabar',
         landing: 'Sokoto',
-        price: 550000,
+        price: 5500,
     },
     {
         fligthId: 13,
@@ -178,7 +178,7 @@ export const airlines = [
         arrivalTime: '10:00am',
         takeOff: 'Ibadan',
         landing: 'Jos',
-        price: 620000,
+        price: 6000,
     },
     {
         fligthId: 14,
@@ -190,7 +190,7 @@ export const airlines = [
         arrivalTime: '5:45pm',
         takeOff: 'Lagos',
         landing: 'Owerri',
-        price: 380000,
+        price: 3800,
     },
     {
         fligthId: 15,
@@ -202,7 +202,7 @@ export const airlines = [
         arrivalTime: '12:30pm',
         takeOff: 'Kaduna',
         landing: 'Ekiti',
-        price: 450000,
+        price: 4000,
     },
     {
         fligthId: 16,
@@ -226,7 +226,7 @@ export const airlines = [
         arrivalTime: '2:00pm',
         takeOff: 'Enugu',
         landing: 'Kano',
-        price: 300000,
+        price: 3000,
     },
     {
         fligthId: 18,
@@ -238,7 +238,7 @@ export const airlines = [
         arrivalTime: '5:30pm',
         takeOff: 'Calabar',
         landing: 'Sokoto',
-        price: 550000,
+        price: 50000,
     },
 ]
 
@@ -254,8 +254,8 @@ export const ships = [
         departureTime: '2:20pm',
         arrivalDate: '11/11/2019',
         arrivalTime: '2:20pm',
-        takeOff: "Lagos",
-        landing: "Abuja",
+        takeOff: "Abuja",
+        landing: "Lagos",
         price: 5000
     },
     {
@@ -469,8 +469,8 @@ export const cars = [
         departureTime: '2:20pm',
         arrivalDate: '11/11/2019',
         arrivalTime: '2:20pm',
-        takeOff: "Lagos",
-        landing: "Abuja",
+        takeOff: "Abuja",
+        landing: "Lagos",
         price: 9000
     },
     {
@@ -607,8 +607,8 @@ export const trains = [
         departureTime: '2:20pm',
         arrivalDate: '11/11/2019',
         arrivalTime: '2:20pm',
-        takeOff: "Lagos",
-        landing: "Abuja",
+        takeOff: "Abuja",
+        landing: "Lagos",
         price: 5000
     },
     {
